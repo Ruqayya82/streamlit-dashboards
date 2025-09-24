@@ -6,7 +6,7 @@ st.set_page_config(page_title="NYC Leading Causes of Death", layout="wide")
 st.title("📊 NYC Leading Causes of Death Dashboard")
 
 df = pd.read_csv(
-    r"C:\Users\abdan\Downloads\streamlit-dashboard\data\New_York_City_Leading_Causes_of_Death_20250923.csv",
+    r"/workspaces/streamlit-dashboards/data/New_York_City_Leading_Causes_of_Death_20250923.csv",
     na_values="."
 )
 
